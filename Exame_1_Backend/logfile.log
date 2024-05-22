@@ -1,0 +1,27 @@
+La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(DEFAULT, ?, ?, ?, ?) [21002-224]
+Odontologo registrado: dh.backend.model.Odontologo@821330f
+Odontologo registrado: Odontologo{id=2, matricula='15365821', nombre='Robin', apellido='Juarez'
+El odontologo encontrado es: Odontologoid=1, matricula='1516325', nombre='JOSE', apellido='CHOCOFLAN'
+Odontologo registrado: Odontologoid=2, matricula='12345678', nombre='Rosa', apellido='Lopez'
+El odontologo listado es: Odontologoid=1, matricula='1516325', nombre='JOSE', apellido='CHOCOFLAN'
+El odontologo listado es: Odontologoid=2, matricula='12345678', nombre='Rosa', apellido='Lopez'
+Odontologo registrado: Odontologoid=2, matricula='12345679', nombre='FERNANDO', apellido='FERNANDEZ'
+El odontologo encontrado es: Odontologoid=2, matricula='12345679', nombre='FERNANDO', apellido='FERNANDEZ'
+El avión eliminado es: Odontologoid=2, matricula='12345679', nombre='FERNANDO', apellido='FERNANDEZ'
+El odontologo encontrado es: null
+[2024-05-21 19:13:04] [ INFO ] [OdontologoDaoH2:37] Odontologo registrado: Odontologoid=2, matricula='12345678', nombre='ROSA', apellido='LOPEZ'
+[2024-05-21 19:13:05] [ INFO ] [OdontologoDaoH2:146] El odontologo listado es: Odontologoid=1, matricula='1516325', nombre='JOSE', apellido='CHOCOFLAN'
+[2024-05-21 19:13:05] [ INFO ] [OdontologoDaoH2:146] El odontologo listado es: Odontologoid=2, matricula='12345678', nombre='ROSA', apellido='LOPEZ'
+[2024-05-21 19:23:22] [ INFO ] [OdontologoEnMemoria:19] Odontologo agregado: Odontologoid=1, matricula='15975369', nombre='JULIAN', apellido='ALVAREZ'
+[2024-05-21 19:23:37] [ INFO ] [OdontologoEnMemoria:19] Odontologo agregado: Odontologoid=1, matricula='147258369', nombre='AZUL', apellido='CORTES'
+[2024-05-21 19:23:37] [ INFO ] [OdontologoEnMemoria:27] Odontologo encontrado: Odontologoid=1, matricula='147258369', nombre='AZUL', apellido='CORTES'
+[2024-05-21 19:23:50] [ INFO ] [OdontologoEnMemoria:19] Odontologo agregado: Odontologoid=1, matricula='123789456', nombre='VANESA', apellido='LEAL'
+[2024-05-21 19:23:50] [ INFO ] [OdontologoEnMemoria:19] Odontologo agregado: Odontologoid=2, matricula='145236987', nombre='FLORENCIA', apellido='ESTRADA'
+[2024-05-21 19:24:06] [ INFO ] [OdontologoEnMemoria:19] Odontologo agregado: Odontologoid=1, matricula='114522369', nombre='JUAN', apellido='SANCHEZ'
+[2024-05-21 19:24:06] [ INFO ] [OdontologoEnMemoria:19] Odontologo agregado: Odontologoid=2, matricula='121212122', nombre='LUCIA', apellido='OLIVARES'
+[2024-05-21 19:24:06] [ INFO ] [OdontologoEnMemoria:19] Odontologo agregado: Odontologoid=3, matricula='158745874', nombre='LUNA', apellido='RUIZ'
+[2024-05-21 19:24:06] [ INFO ] [OdontologoEnMemoria:27] Odontologo encontrado: Odontologoid=2, matricula='121212122', nombre='LUCIA', apellido='OLIVARES'
+[2024-05-21 19:24:06] [ INFO ] [OdontologoEnMemoria:39] Odontologo eliminado: Odontologoid=2, matricula='121212122', nombre='LUCIA', apellido='OLIVARES'
+[2024-05-21 19:24:06] [ INFO ] [OdontologoEnMemoria:31] Odontologo no encontrado :c
